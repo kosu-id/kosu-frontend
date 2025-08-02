@@ -6,8 +6,7 @@ import Link from "next/link";
 
 export default function LoginPage() {
   return (
-    <div className="flex flex-col items-center py-15">
-      {/* Teks Jepang di atas border */}
+    <div className="flex flex-col items-center py-10">
       <h1 className="text-3xl font-semibold mb-6 text-center text-gray-200">
         コス!
       </h1>
