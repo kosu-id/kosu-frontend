@@ -1,7 +1,12 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
+  const pathname = usePathname();
+  if (pathname.startsWith("/dashboard")) return null;
+  
   return (
     <header className="w-full px-8 py-4 flex justify-between items-center shadow-sm bg-white">
       <div className="flex items-center gap-2">
