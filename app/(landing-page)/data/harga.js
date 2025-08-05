@@ -30,8 +30,8 @@ const planData = [
   {
     nama: "Custom",
     deskripsi: "Pemilik kost besar",
-    hargaBulanan: 0,
-    hargaTahunan: 0,
+    hargaBulanan: "Hubungi Sales",
+    hargaTahunan: "Hubungi Sales",
     fitur: [
       "5+ Properti, banyak kamar",
       "Dashboard keuangan lengkap",

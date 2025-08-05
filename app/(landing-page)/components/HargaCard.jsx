@@ -13,9 +13,8 @@ export default function HargaCard({
   const hargaLabel = `Rp. ${harga.toLocaleString()}`
 
   return (
-    <Card className="bg-gray-200 rounded-3xl w-full max-w-sm mx-auto h-full shadow-lg">
+    <Card className="border-0 bg-gray-300 rounded-3xl w-full max-w-sm mx-auto h-full shadow-lg">
       <CardContent className="p-8 flex flex-col justify-between h-full">
-        {/* Header */}
         <div className="mb-6">
           <h2 className="text-2xl font-bold mb-1">{nama}</h2>
           <div className="text-2xl font-bold mb-2">

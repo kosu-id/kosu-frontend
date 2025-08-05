@@ -12,7 +12,7 @@ export default function HargaSection() {
     <section className="my-5 md:my-20">
       <Judul>Berapa biaya KOSU?</Judul>
 
-      <div className="flex justify-center items-center gap-4 mb-10">
+      <div className="flex justify-center items-center gap-4 mb-5 md:mb-10">
         <span className={!isYearly ? "font-semibold" : "text-gray-400"}>
           Bulan
         </span>
@@ -31,14 +31,14 @@ export default function HargaSection() {
         </span>
       </div>
 
-      <div className="flex justify-center items-center mb-16 text-center text-lg">
+      <div className="flex justify-center items-center mb-5 md:mb-16 text-center text-lg">
         <p>
           Dapatkan lebih <b className="text-green-400">murah</b> <br />
           dengan bayar pertahun
         </p>
       </div>
 
-      <div className="grid  sm:grid-cols-2 lg:grid-cols-3 md:justify-between gap-5">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 md:justify-between gap-5">
         {planData.map((plan, index) => (
           <HargaCard key={index} {...plan} isYearly={isYearly} />
         ))}
