@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
+import LandingPage from "@/app/(landing-page)/page";
 
 const page = () => {
-  return (
-    <div>
-      <h1 className="text-2xl font-semibold mb-2 text-center py-5 ">コス!</h1>
-    </div>
-  )
-}
+  return <LandingPage />;
+};
 
-export default page
+export default page;
